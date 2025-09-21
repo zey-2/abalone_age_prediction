@@ -1,5 +1,7 @@
 # Abalone Age Prediction
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/zey-2/abalone_age_prediction/blob/main/process_abalone.ipynb)
+
 This project predicts the age of abalone (a type of sea snail) based on physical measurements using machine learning regression models.
 
 ## Dataset
