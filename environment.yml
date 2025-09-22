@@ -1,11 +1,18 @@
 name: abalone-env
 channels:
+  - conda-forge
   - defaults
 dependencies:
-  - python=3.12
-  - pandas
-  - numpy
+  - python=3.11
+  - pip
+  - numpy=1.26.*
+  - pandas=2.2.*
+  - scikit-learn=1.4.*
   - matplotlib
   - seaborn
-  - scikit-learn
   - jupyter
+  - pyarrow>=10
+  - lightgbm>=3.3.2
+  - xgboost>=1.5.2
+  - pip:
+      - openfe
